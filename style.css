@@ -116,4 +116,5 @@ main section:first-child {
     background-color: white;
     margin-top: 100vh;
     height: 100vh;
+    background-color: red;
 }
