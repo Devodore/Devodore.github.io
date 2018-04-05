@@ -84,6 +84,7 @@ h1 {
     font-size: 5rem;
     margin-top: 25vh;
     text-shadow: 8px 0px 40px black;
+    background-color: red;
 }
 
 header > div > p:nth-child(2) {
