@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+    background: #3498db;
+    font-family: 'Josefin Sans', sans-serif;
+    background: url('../img/sky.jpg') no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.characters > img {
+    width: 100%;
+}
+
+.container {
+    position: fixed;
+    bottom: 5px;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.characters {
+    text-align: center;
+    width: 12%;
+}
+
+#character0 {
+    margin-right: 100%;
+}
+
+.countDown {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.playerSpawn {
+    width: 25%;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+}
+
+#playerSpawn1 {
+    left: -75px;
+}
+
+#playerSpawn2 {
+    right: -75px;
+}
+
+.playerSpawn > img {
+    width: 100%;
+}
+
+.material-icons {
+    color: #e74c3c;
+}
+
+.characters h2 {
+    opacity: 0;
+}
+
+.characters a {
+    display: none;
+    color: #222;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 6px;
+    margin-top: 75%;
+}
+
+.characters a:hover {
+    border: 2px solid #fff;
+    padding: 2;
+}
+
+.characters a img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    width: 100%;
+	text-align: center;
+    color: white;
+    font-size: 0.8rem;
+	position: absolute;
+	bottom: 3px;
+	left: 0;
+	z-index: 999;
+}
